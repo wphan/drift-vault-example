@@ -2,6 +2,8 @@
 
 This is an example of a trading strategy that trades the funds in a vault.
 
+⚠️ This is an example strategy and is not meant to be used as is in production, you will lose money.
+
 ## Explanation
 
 ### How the account permissions work
