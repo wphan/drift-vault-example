@@ -1,0 +1,19 @@
+{
+  "name": "drift-vault-example",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@drift-labs/sdk": "^2.112.0-beta.1",
+    "@drift-labs/vaults-sdk": "^0.4.33"
+  },
+  "scripts": {
+    "dev": "bun index.ts",
+    "monitor": "bun scripts/monitorWithdrawals.ts"
+  }
+}
